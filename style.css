@@ -1,0 +1,40 @@
+* { box-sizing: border-box; margin: 0; }
+body { font-family: sans-serif; background: #F5F6F8; }
+
+main {
+  max-width: 900px;
+  margin: 24px auto;   /* 가운데 정렬 */
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4B52FF; color: #fff;
+  padding: 14px 20px;
+}
+
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th { background: #4B52FF; color: #fff; }
+th, td { padding: 12px; border-bottom: 1px solid #eee; text-align: left; }
+tr:hover { background: #f2f3ff; }
+
+.btn {
+  background: #4B52FF; color: #fff;
+  padding: 10px 18px; border: none;
+  border-radius: 8px; cursor: pointer;
+  transition: background .2s;
+  text-decoration: none; display: inline-block;
+}
+.btn:hover { background: #2E34C7; }
+
+article {
+  background: #fff; padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+@media (max-width: 600px) {
+  header { flex-direction: column; gap: 8px; align-items: flex-start; }
+}

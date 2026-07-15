@@ -1,0 +1,26 @@
+{
+  "name": "aws-board",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rbsxo135/aws-board#readme",
+  "bugs": {
+    "url": "https://github.com/rbsxo135/aws-board/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbsxo135/aws-board.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.23.0"
+  }
+}
